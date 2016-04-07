@@ -23,4 +23,4 @@ It brings better battery life and performance.
 ## added:
 - CONFIG_SAMSUNG_PRODUCT_SHIP (it disables some Debug stuff from Samsung)
 
-## Dont forget to switch to 12.1 branch if you want to compile youurself. Or just [download](https://github.com/maroviher/android_kernel_samsung_exynos5420/raw/cm-12.1/boot.tar) precompiled odin flashable.
+## Dont forget to switch to 12.1 branch if you want to compile yourself. Or just [download](https://github.com/maroviher/android_kernel_samsung_exynos5420/raw/cm-12.1/boot.tar) precompiled odin flashable.
