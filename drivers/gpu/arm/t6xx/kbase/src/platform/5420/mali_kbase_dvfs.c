@@ -745,7 +745,7 @@ int kbase_platform_set_voltage(struct device *dev, int vol)
 
 void kbase_set_power_margin(int volt_offset)
 {
-	int getVol;
+	int getVol = 0;
 
 #ifdef CONFIG_MALI_T6XX_DVFS
 	mutex_lock(&mali_set_clock_lock);
