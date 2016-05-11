@@ -1,6 +1,6 @@
 ## SM-T520 WiFi CyanogenMod 12.1 Kernel lite
 This is an original CyanogenMod 12.1 Kernel for SM-T520 WiFi with a lot of removed debug stuff, that normal users do not need in a daily use.
-Kernel size reduced by about 13%, from original 6221824 to 5492736 bytes.
+Kernel size reduced by about 22%, from original 6221824 to 5117952 bytes.
 It brings better battery life and performance.
 
 ## removed:
@@ -19,6 +19,8 @@ It brings better battery life and performance.
 - CONFIG_DYNAMIC_DEBUG
 - CONFIG_DEBUG_USER
 - CONFIG_DEBUG_RODATA
+- CONFIG_KALLSYMS
+- CONFIG_ELF_CORE
 
 ## added:
 - CONFIG_SAMSUNG_PRODUCT_SHIP (it disables some Debug stuff from Samsung)
